@@ -7,7 +7,7 @@ on:
 jobs:
 
   build-stable:
-    name: Build Stable Image
+    name: Test Github Packages
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repo 
