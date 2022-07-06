@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  scratch-go-helloworld-test:
+    container_name: scratch-go-helloworld-test
+    image: ghcr.io/antyung88/scratch-go-helloworld:test
+    ports:
+      - "8080:8080"
